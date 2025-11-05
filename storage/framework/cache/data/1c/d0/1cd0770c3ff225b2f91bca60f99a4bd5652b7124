@@ -1,0 +1,115 @@
+1751738594a:2:{s:6:"status";s:7:"success";s:4:"html";s:6192:"<div class="flight-results">
+    
+            <h3 class="text-primary mb-4">Vols Aller</h3>
+                    
+                            <div class="flight-card border mb-4 p-4 rounded shadow-sm">
+                                                                        
+                            
+                            <div class="d-flex align-items-center">
+                                <img src="https://logo.clearbit.com/royalairmaroc.com?size=150" alt="Royal Air Maroc" class="airline-logo me-3" style="width: 50px; height: 50px;">
+                                <div>
+                                    <h5 class="mb-1 text-primary">Royal Air Maroc</h5>
+                                    <small class="text-muted">Vol AT 703</small>
+                                </div>
+                            </div>
+                            <div class="timeline d-flex justify-content-between align-items-center mt-3">
+                                <div class="text-center">
+                                    <strong>CDG</strong>
+                                    <p class="mb-0 small text-muted">19/07/2025 08:05</p>
+                                </div>
+                                <div class="timeline-line flex-grow-1 position-relative mx-3">
+                                    <span class="text-success small position-absolute top-50 start-50 translate-middle">Direct</span>
+                                    <div class="line bg-success"></div>
+                                </div>
+                                <div class="text-center">
+                                    <strong>CMN</strong>
+                                    <p class="mb-0 small text-muted">19/07/2025 10:15</p>
+                                </div>
+                            </div>
+                                                            </div>
+                                
+                            <div class="flight-card border mb-4 p-4 rounded shadow-sm">
+                                                                        
+                            
+                            <div class="d-flex align-items-center">
+                                <img src="https://logo.clearbit.com/royalairmaroc.com?size=150" alt="Royal Air Maroc" class="airline-logo me-3" style="width: 50px; height: 50px;">
+                                <div>
+                                    <h5 class="mb-1 text-primary">Royal Air Maroc</h5>
+                                    <small class="text-muted">Vol AT 703</small>
+                                </div>
+                            </div>
+                            <div class="timeline d-flex justify-content-between align-items-center mt-3">
+                                <div class="text-center">
+                                    <strong>CDG</strong>
+                                    <p class="mb-0 small text-muted">23/07/2025 08:05</p>
+                                </div>
+                                <div class="timeline-line flex-grow-1 position-relative mx-3">
+                                    <span class="text-success small position-absolute top-50 start-50 translate-middle">Direct</span>
+                                    <div class="line bg-success"></div>
+                                </div>
+                                <div class="text-center">
+                                    <strong>CMN</strong>
+                                    <p class="mb-0 small text-muted">23/07/2025 10:15</p>
+                                </div>
+                            </div>
+                                                            </div>
+                        
+    
+            <h3 class="text-primary mb-4">Vols Retour</h3>
+                    
+                            <div class="flight-card border mb-4 p-4 rounded shadow-sm">
+                                                                        
+                            
+                            <div class="d-flex align-items-center">
+                                <img src="https://logo.clearbit.com/royalairmaroc.com?size=150" alt="Royal Air Maroc" class="airline-logo me-3" style="width: 50px; height: 50px;">
+                                <div>
+                                    <h5 class="mb-1 text-primary">Royal Air Maroc</h5>
+                                    <small class="text-muted">Vol AT 702</small>
+                                </div>
+                            </div>
+                            <div class="timeline d-flex justify-content-between align-items-center mt-3">
+                                <div class="text-center">
+                                    <strong>CMN</strong>
+                                    <p class="mb-0 small text-muted">24/07/2025 03:50</p>
+                                </div>
+                                <div class="timeline-line flex-grow-1 position-relative mx-3">
+                                    <span class="text-success small position-absolute top-50 start-50 translate-middle">Direct</span>
+                                    <div class="line bg-success"></div>
+                                </div>
+                                <div class="text-center">
+                                    <strong>CDG</strong>
+                                    <p class="mb-0 small text-muted">24/07/2025 07:45</p>
+                                </div>
+                            </div>
+                                                            </div>
+                        </div>
+
+<style>
+    .flight-card {
+        padding: 1.5rem;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .airline-logo {
+        max-width: 50px;
+        max-height: 50px;
+        object-fit: contain;
+    }
+
+    .timeline-line .line {
+        height: 2px;
+        background-color: #dee2e6;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        z-index: 0;
+    }
+
+    .direct-arrow {
+        margin-top: 1rem;
+    }
+</style>
+";}

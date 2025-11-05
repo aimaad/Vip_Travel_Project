@@ -1,0 +1,1 @@
+<?php /**PATH C:\angular\Vip_travel\Vip_Travel_Project\modules/Tour/Views/admin/tour/ical.blade.php ENDPATH**/ ?>

@@ -1,0 +1,374 @@
+[2025-08-13 13:47:50] production.ERROR: Route [flights.update] not defined. {"view":{"view":"C:\\angular\\Vip_Travel_Project\\resources\\views\\vendor\\Flight\\admin\\offer\\partials\\amadeus_results_direct_multiple.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-789524677 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#2558</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-789524677\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","input":"<pre class=sf-dump id=sf-dump-1281802081 data-indent-pad=\"  \"><span class=sf-dump-note>array:5</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>_token</span>\" => \"<span class=sf-dump-str title=\"40 characters\">7EHQUT04aj7ROeHXfJBSF60FKNDwedn0eZUJ9nIO</span>\"
+  \"<span class=sf-dump-key>city</span>\" => \"<span class=sf-dump-str title=\"8 characters\">Istanbul</span>\"
+  \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"39 characters\">Lord Morgan &amp; Exclusive Design Cihangir</span>\"
+  \"<span class=sf-dump-key>total_rooms</span>\" => \"<span class=sf-dump-str>1</span>\"
+  \"<span class=sf-dump-key>room_types</span>\" => <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:8</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">single</span>\"
+      \"<span class=sf-dump-key>adults</span>\" => \"<span class=sf-dump-str>1</span>\"
+      \"<span class=sf-dump-key>children</span>\" => \"<span class=sf-dump-str>1</span>\"
+      \"<span class=sf-dump-key>kids</span>\" => \"<span class=sf-dump-str>1</span>\"
+      \"<span class=sf-dump-key>babies</span>\" => \"<span class=sf-dump-str>1</span>\"
+      \"<span class=sf-dump-key>price</span>\" => \"<span class=sf-dump-str>1</span>\"
+      \"<span class=sf-dump-key>available_rooms</span>\" => \"<span class=sf-dump-str>1</span>\"
+      \"<span class=sf-dump-key>pension</span>\" => \"<span class=sf-dump-str title=\"2 characters\">RO</span>\"
+    </samp>]
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1281802081\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","services":"<pre class=sf-dump id=sf-dump-156983856 data-indent-pad=\"  \"><span class=sf-dump-note>array:1</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type_service</span>\" => \"<span class=sf-dump-str title=\"15 characters\">transfert offre</span>\"
+    \"<span class=sf-dump-key>date_service</span>\" => \"<span class=sf-dump-str title=\"10 characters\">2025-08-22</span>\"
+    \"<span class=sf-dump-key>description</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>prix</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>capacite</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">inclus</span>\"
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-156983856\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","scraped":"<pre class=sf-dump id=sf-dump-1872107419 data-indent-pad=\"  \"><span class=sf-dump-note>array:8</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>41</span>
+  \"<span class=sf-dump-key>hotel_name</span>\" => \"<span class=sf-dump-str title=\"39 characters\">Lord Morgan &amp; Exclusive Design Cihangir</span>\"
+  \"<span class=sf-dump-key>url</span>\" => \"\"
+  \"<span class=sf-dump-key>images</span>\" => <span class=sf-dump-note>array:40</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/422343044.jpg?k=84a40f08ce22c231646e052c9d8464f56b6278797379344fd7f1dfa30f364942&amp;o=</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833427.jpg?k=a44a644ffc675f940b14be7da94876274327d77fcf805f682d9ea14951ab3500&amp;o=</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833725.jpg?k=b5bf8216db83d65cf64498295ff6df1607a68f381aa3958be857b169dbdeb7e4&amp;o=</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833841.jpg?k=0701959ef8363eb87e7ed6aa2a8abec689827840324c7ae75059c75d62adba94&amp;o=</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612756701.jpg?k=518e2dee8435cb39c9de5656fa71bd1ad3b6b75ff49eb349ab01d2c68742a8af&amp;o=</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612756926.jpg?k=c332b0e5cdbb3900a41eab4370208ed83d46e78065606cbbf98f786949525eb6&amp;o=</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612756752.jpg?k=3510120120801abbd1666411ad0480d578574c2b28118e0067bbf6167df007a4&amp;o=</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612756951.jpg?k=00300511868e1601b11c0a9674588c53d02d3769e25aa238bc496f17e8fb8a7e&amp;o=</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612915055.jpg?k=8cfa24af6960827bc57b020922dc247b6982e42882f64f4c4596172846a2a3b5&amp;o=</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833642.jpg?k=e0fc0f24694bb48878617e76ad8e3b62b1cd3fd4e4326116105d6be04ccca422&amp;o=</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612757308.jpg?k=ce56e516d1d2ceac37968d82a6f580ce874c239233b98cd8e8ff41e80f88e2a9&amp;o=</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612757330.jpg?k=dea8ab4672933b7c904f00a79acfe8f4ba42f92b41383e364ef2488997f3f823&amp;o=</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612757347.jpg?k=4a4a20decbba66b8a9fce4f7d0ac7526d112d2752adc660a194527b0f18f6270&amp;o=</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511351722.jpg?k=c4fa85032240c707a162398fa49ea7ac8e15327ce232a3f3bdd838b3b2371309&amp;o=</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612757269.jpg?k=123285bae74e3d7263fa4830cf4c2347bad2a4a345fc5e4e84a0c569a4c28119&amp;o=</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/613609300.jpg?k=cc866348128d521815b4d8efcd46d0c6d28ce3b2dc08d0eba9a1b24cd790b50b&amp;o=</span>\"
+    <span class=sf-dump-index>16</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833415.jpg?k=00a0d2b290a2bf9ef9d6ac39a7475a5d3b62d5d2bdc680bcc961fd31fdf7516f&amp;o=</span>\"
+    <span class=sf-dump-index>17</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833356.jpg?k=ab41b70df9060f0aa969ea28d141d9671ce1c06af52b75f26eac4aaa4d764c98&amp;o=</span>\"
+    <span class=sf-dump-index>18</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/173361231.jpg?k=397d4f00c8c06809bc0a679cc582bff83b205ff7ffd1aa262e49065c86172ae7&amp;o=</span>\"
+    <span class=sf-dump-index>19</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/422343039.jpg?k=146dc4d424485c7bb71cb1909a97d04b8946e01aef1cd1c34f67358c63f57308&amp;o=</span>\"
+    <span class=sf-dump-index>20</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/422343046.jpg?k=32920210c0d152a91360a35d36a2064376f344b2911c9bf50c255fbd64c38b79&amp;o=</span>\"
+    <span class=sf-dump-index>21</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833740.jpg?k=2fd272f7dddb85e98509168c47c2724b1c4c10ff9a7ddcc6601ef4d1aa72721a&amp;o=</span>\"
+    <span class=sf-dump-index>22</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833633.jpg?k=3fa6c3459d2c58d0542b4309117dd62d9821045d314f0968dcbbb413c28d3b75&amp;o=</span>\"
+    <span class=sf-dump-index>23</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/613075783.jpg?k=f57163039ea69c3eba826534d9dbb79411247885739656df662544a8fe265f01&amp;o=</span>\"
+    <span class=sf-dump-index>24</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612756788.jpg?k=0683d0f71eb4b136eecb1c8e1c912c454aaf53e706a5b59209fa338032debed8&amp;o=</span>\"
+    <span class=sf-dump-index>25</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612757155.jpg?k=3f75a7ece0c68fccfa97021bf7e5f7ffb281b2d79fa7fdbe0c57a0b8aea362d7&amp;o=</span>\"
+    <span class=sf-dump-index>26</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/624771623.jpg?k=a227612e0cf48ad59c285c654c3103947be3395b58fe1f16a48dc20d193040a4&amp;o=</span>\"
+    <span class=sf-dump-index>27</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833237.jpg?k=00aea44402659dd5dd2f4d8902336792d171c77fbba2dfc3311e5f2f3ed143e6&amp;o=</span>\"
+    <span class=sf-dump-index>28</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833944.jpg?k=7f0cd2ee7ffb07e18df95f1239d2987a8b707d63ea16696c125702cdb7ca843f&amp;o=</span>\"
+    <span class=sf-dump-index>29</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833431.jpg?k=8ca58ec6dab711a55d8c4f78ba37e6274c30f054cad4cbf7be37496984430187&amp;o=</span>\"
+    <span class=sf-dump-index>30</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833959.jpg?k=087a8ec5da7f6d10ae6d108482341c8a00afcdbe59670f72f4396617e1a4e464&amp;o=</span>\"
+    <span class=sf-dump-index>31</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/509222655.jpg?k=9401b1cb8ef1fafc14784c61647764a271c14acdba8f42c351d84747aadbc632&amp;o=</span>\"
+    <span class=sf-dump-index>32</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833315.jpg?k=44c35297dc5eec5910467d09b67ddd1842a940e641dc0310e29b5bdf84b66739&amp;o=</span>\"
+    <span class=sf-dump-index>33</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833552.jpg?k=da7c3c8097fc8bfff72e6e3928a065a3dd1308b822f985df02d04d41232f6fc9&amp;o=</span>\"
+    <span class=sf-dump-index>34</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833952.jpg?k=8c18e06b104a47ca8aae9529f59142c2a48b2ea05ad0463bfafb738cf2638ac7&amp;o=</span>\"
+    <span class=sf-dump-index>35</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833950.jpg?k=5f36c23d6dd0d144c15b4970eaeab0ba74ad1ece97e0aa28ac300a72a9dd7630&amp;o=</span>\"
+    <span class=sf-dump-index>36</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833365.jpg?k=b423ed958f28305588935cfcd39dfe7348a01a898629c1dfcef4736a5366b152&amp;o=</span>\"
+    <span class=sf-dump-index>37</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/509222662.jpg?k=e658946643ac22d4039ab89add2fc674c9226819c0c58672f0ea06fb81a5c6bc&amp;o=</span>\"
+    <span class=sf-dump-index>38</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/612915060.jpg?k=51a8970fac25f86454aa1d5c1c314f79e5b8dd50e873c13355d75aa6c3296284&amp;o=</span>\"
+    <span class=sf-dump-index>39</span> => \"<span class=sf-dump-str title=\"132 characters\">https://cf.bstatic.com/xdata/images/hotel/max300/511833935.jpg?k=4492d62c39f07ae2bdb1d1c7d98cd48f0e07962176f45de8f0ec9293151b99be&amp;o=</span>\"
+  </samp>]
+  \"<span class=sf-dump-key>address</span>\" => \"<span class=sf-dump-str title=\"107 characters\">Defterdar Yoku&#351;u k&#305;l&#305;&#231;alipa&#351;a mahallesi defterdar yoku&#351;u no : 32/a beyo&#287;lu, Beyoglu, 34425 Istanbul, Turkey</span>\"
+  \"<span class=sf-dump-key>rating</span>\" => \"<span class=sf-dump-str title=\"3 characters\">8.6</span>\"
+  \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2025-07-16T15:26:28.000000Z</span>\"
+  \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"27 characters\">2025-07-16T15:26:28.000000Z</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1872107419\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","scrapingStatus":"<pre class=sf-dump id=sf-dump-1170575576 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"7 characters\">success</span>\"
+</pre><script>Sfdump(\"sf-dump-1170575576\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","flightResultsHtml":"<pre class=sf-dump id=sf-dump-729607370 data-indent-pad=\"  \"><span class=sf-dump-note>array:2</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">success</span>\"
+  \"<span class=sf-dump-key>data</span>\" => <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:2</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>meta</span>\" => <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      \"<span class=sf-dump-key>data</span>\" => <span class=sf-dump-note>array:2</span> [ &#8230;2]
+    </samp>]
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-729607370\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","flightUser":"<pre class=sf-dump id=sf-dump-1014954975 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\FlightSearch</span> {<a class=sf-dump-ref>#2971</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"15 characters\">flight_searches</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:14</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>330</span>
+    \"<span class=sf-dump-key>user_id</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>token</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>search_params</span>\" => \"<span class=sf-dump-str title=\"608 characters\">&quot;{\\&quot;flights\\&quot;:[{\\&quot;departure_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;IST\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-23T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;TK0618\\&quot;},{\\&quot;departure_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;CDG\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-23T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;AT702\\&quot;}],\\&quot;return_flights\\&quot;:[{\\&quot;departure_city\\&quot;:\\&quot;IST\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-24T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;TK0617\\&quot;},{\\&quot;departure_city\\&quot;:\\&quot;CDG\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-24T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;AT703\\&quot;}],\\&quot;flight_type\\&quot;:\\&quot;direct_multiple\\&quot;}&quot;</span>\"
+    \"<span class=sf-dump-key>results</span>\" => \"<span class=sf-dump-str title=\"1258 characters\">&quot;{\\&quot;flights\\&quot;:[[{\\&quot;id\\&quot;:\\&quot;off_0000Ax81w812ljr1ppeBxy\\&quot;,\\&quot;price\\&quot;:\\&quot;290.59\\&quot;,\\&quot;currency\\&quot;:\\&quot;EUR\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;TK\\&quot;,\\&quot;number\\&quot;:\\&quot;0618\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T16:50:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;IST\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T23:30:00\\&quot;}}]}]}],[{\\&quot;id\\&quot;:\\&quot;3\\&quot;,\\&quot;price\\&quot;:\\&quot;6514.00\\&quot;,\\&quot;currency\\&quot;:\\&quot;MAD\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;AT\\&quot;,\\&quot;number\\&quot;:\\&quot;702\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;terminal\\&quot;:\\&quot;1\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T02:50:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CDG\\&quot;,\\&quot;terminal\\&quot;:\\&quot;2B\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T06:45:00\\&quot;}}]}]}]],\\&quot;return_flights\\&quot;:[[{\\&quot;id\\&quot;:\\&quot;off_0000Ax81we6LcfPx40purz\\&quot;,\\&quot;price\\&quot;:\\&quot;306.99\\&quot;,\\&quot;currency\\&quot;:\\&quot;EUR\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;TK\\&quot;,\\&quot;number\\&quot;:\\&quot;0617\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;IST\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T12:00:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T14:55:00\\&quot;}}]}]}],[{\\&quot;id\\&quot;:\\&quot;2\\&quot;,\\&quot;price\\&quot;:\\&quot;1769.00\\&quot;,\\&quot;currency\\&quot;:\\&quot;MAD\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;AT\\&quot;,\\&quot;number\\&quot;:\\&quot;703\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CDG\\&quot;,\\&quot;terminal\\&quot;:\\&quot;2B\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T08:05:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;terminal\\&quot;:\\&quot;2\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T10:15:00\\&quot;}}]}]}]]}&quot;</span>\"
+    \"<span class=sf-dump-key>status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">success</span>\"
+    \"<span class=sf-dump-key>error_message</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-13 13:36:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-13 13:36:17</span>\"
+    \"<span class=sf-dump-key>places</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>price_adult</span>\" => \"<span class=sf-dump-str title=\"4 characters\">1.00</span>\"
+    \"<span class=sf-dump-key>price_child</span>\" => \"<span class=sf-dump-str title=\"4 characters\">1.00</span>\"
+    \"<span class=sf-dump-key>price_baby</span>\" => \"<span class=sf-dump-str title=\"4 characters\">1.00</span>\"
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"15 characters\">direct_multiple</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:14</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>330</span>
+    \"<span class=sf-dump-key>user_id</span>\" => <span class=sf-dump-num>8</span>
+    \"<span class=sf-dump-key>token</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>search_params</span>\" => \"<span class=sf-dump-str title=\"608 characters\">&quot;{\\&quot;flights\\&quot;:[{\\&quot;departure_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;IST\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-23T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;TK0618\\&quot;},{\\&quot;departure_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;CDG\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-23T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;AT702\\&quot;}],\\&quot;return_flights\\&quot;:[{\\&quot;departure_city\\&quot;:\\&quot;IST\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-24T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;TK0617\\&quot;},{\\&quot;departure_city\\&quot;:\\&quot;CDG\\&quot;,\\&quot;arrival_city\\&quot;:\\&quot;CMN\\&quot;,\\&quot;departure_date\\&quot;:\\&quot;2025-08-24T00:00:00.000000Z\\&quot;,\\&quot;flight_number\\&quot;:\\&quot;AT703\\&quot;}],\\&quot;flight_type\\&quot;:\\&quot;direct_multiple\\&quot;}&quot;</span>\"
+    \"<span class=sf-dump-key>results</span>\" => \"<span class=sf-dump-str title=\"1258 characters\">&quot;{\\&quot;flights\\&quot;:[[{\\&quot;id\\&quot;:\\&quot;off_0000Ax81w812ljr1ppeBxy\\&quot;,\\&quot;price\\&quot;:\\&quot;290.59\\&quot;,\\&quot;currency\\&quot;:\\&quot;EUR\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;TK\\&quot;,\\&quot;number\\&quot;:\\&quot;0618\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T16:50:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;IST\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T23:30:00\\&quot;}}]}]}],[{\\&quot;id\\&quot;:\\&quot;3\\&quot;,\\&quot;price\\&quot;:\\&quot;6514.00\\&quot;,\\&quot;currency\\&quot;:\\&quot;MAD\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;AT\\&quot;,\\&quot;number\\&quot;:\\&quot;702\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;terminal\\&quot;:\\&quot;1\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T02:50:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CDG\\&quot;,\\&quot;terminal\\&quot;:\\&quot;2B\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-23T06:45:00\\&quot;}}]}]}]],\\&quot;return_flights\\&quot;:[[{\\&quot;id\\&quot;:\\&quot;off_0000Ax81we6LcfPx40purz\\&quot;,\\&quot;price\\&quot;:\\&quot;306.99\\&quot;,\\&quot;currency\\&quot;:\\&quot;EUR\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;TK\\&quot;,\\&quot;number\\&quot;:\\&quot;0617\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;IST\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T12:00:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T14:55:00\\&quot;}}]}]}],[{\\&quot;id\\&quot;:\\&quot;2\\&quot;,\\&quot;price\\&quot;:\\&quot;1769.00\\&quot;,\\&quot;currency\\&quot;:\\&quot;MAD\\&quot;,\\&quot;itineraries\\&quot;:[{\\&quot;segments\\&quot;:[{\\&quot;carrierCode\\&quot;:\\&quot;AT\\&quot;,\\&quot;number\\&quot;:\\&quot;703\\&quot;,\\&quot;departure\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CDG\\&quot;,\\&quot;terminal\\&quot;:\\&quot;2B\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T08:05:00\\&quot;},\\&quot;arrival\\&quot;:{\\&quot;iataCode\\&quot;:\\&quot;CMN\\&quot;,\\&quot;terminal\\&quot;:\\&quot;2\\&quot;,\\&quot;at\\&quot;:\\&quot;2025-08-24T10:15:00\\&quot;}}]}]}]]}&quot;</span>\"
+    \"<span class=sf-dump-key>status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">success</span>\"
+    \"<span class=sf-dump-key>error_message</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-13 13:36:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-13 13:36:17</span>\"
+    \"<span class=sf-dump-key>places</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>price_adult</span>\" => \"<span class=sf-dump-str title=\"4 characters\">1.00</span>\"
+    \"<span class=sf-dump-key>price_child</span>\" => \"<span class=sf-dump-str title=\"4 characters\">1.00</span>\"
+    \"<span class=sf-dump-key>price_baby</span>\" => \"<span class=sf-dump-str title=\"4 characters\">1.00</span>\"
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"15 characters\">direct_multiple</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>search_params</span>\" => \"<span class=sf-dump-str title=\"5 characters\">array</span>\"
+    \"<span class=sf-dump-key>results</span>\" => \"<span class=sf-dump-str title=\"5 characters\">array</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">usesUniqueIds</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"7 characters\">user_id</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"13 characters\">search_params</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"7 characters\">results</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"6 characters\">status</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"13 characters\">error_message</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"6 characters\">places</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"11 characters\">price_adult</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"11 characters\">price_child</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"10 characters\">price_baby</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"4 characters\">type</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1014954975\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","flightSearch":"<pre class=sf-dump id=sf-dump-484401542 data-indent-pad=\"  \">[]
+</pre><script>Sfdump(\"sf-dump-484401542\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","flightType":"<pre class=sf-dump id=sf-dump-914717430 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"15 characters\">direct_multiple</span>\"
+</pre><script>Sfdump(\"sf-dump-914717430\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","scrapingInProgress":"<pre class=sf-dump id=sf-dump-531319771 data-indent-pad=\"  \"><span class=sf-dump-const>false</span>
+</pre><script>Sfdump(\"sf-dump-531319771\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","scrapingError":"<pre class=sf-dump id=sf-dump-1009801369 data-indent-pad=\"  \"><span class=sf-dump-const>false</span>
+</pre><script>Sfdump(\"sf-dump-1009801369\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","amadeusResults":"<pre class=sf-dump id=sf-dump-2102449368 data-indent-pad=\"  \"><span class=sf-dump-note>array:2</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>flights</span>\" => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:4</span> [ &#8230;4]
+    </samp>]
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:4</span> [ &#8230;4]
+    </samp>]
+  </samp>]
+  \"<span class=sf-dump-key>return_flights</span>\" => <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:4</span> [ &#8230;4]
+    </samp>]
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:4</span> [ &#8230;4]
+    </samp>]
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-2102449368\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","request":"<pre class=sf-dump id=sf-dump-693633971 data-indent-pad=\"  \">[]
+</pre><script>Sfdump(\"sf-dump-693633971\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":8,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [flights.update] not defined. at C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
+[stacktrace]
+#0 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('flights.update', Array, true)
+#1 C:\\angular\\Vip_Travel_Project\\resources\\views\\vendor\\Flight\\admin\\offer\\partials\\amadeus_results_direct_multiple.blade.php(16): route('flights.update')
+#2 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\angular\\\\Vip_...')
+#3 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\angular\\\\Vip_...', Array)
+#5 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\angular\\\\Vip_...', Array)
+#6 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\angular\\\\Vip_...', Array)
+#7 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#8 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#9 C:\\angular\\Vip_Travel_Project\\resources\\views\\hotels\\confirmation.blade.php(342): Illuminate\\View\\View->render()
+#10 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\angular\\\\Vip_...')
+#11 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\angular\\\\Vip_...', Array)
+#13 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\angular\\\\Vip_...', Array)
+#14 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\angular\\\\Vip_...', Array)
+#15 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#16 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#17 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#18 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#19 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#20 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#21 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#22 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\RequireChangePassword.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\RequireChangePassword->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\SetLanguageForAdmin.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetLanguageForAdmin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\SetCurrentCurrency.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetCurrentCurrency->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\HideDebugbar.php(32): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\HideDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\RedirectForMultiLanguage.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\RedirectForMultiLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#43 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#51 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#52 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#53 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#54 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\angular\\Vip_Travel_Project\\themes\\Base\\Core\\Middleware\\RunUpdater.php(73): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Themes\\Base\\Core\\Middleware\\RunUpdater->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\angular\\Vip_Travel_Project\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\RedirectToInstaller.php(40): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\RedirectToInstaller->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#76 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\angular\\Vip_Travel_Project\\public\\index.php(77): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\angular\\Vip_Travel_Project\\server.php(21): require_once('C:\\\\angular\\\\Vip_...')
+#80 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [flights.update] not defined. at C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
+[stacktrace]
+#0 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('flights.update', Array, true)
+#1 C:\\angular\\Vip_Travel_Project\\storage\\framework\\views\\f39e7c4b434ae2430d725d9513c2446b.php(16): route('flights.update')
+#2 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\angular\\\\Vip_...')
+#3 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\angular\\\\Vip_...', Array)
+#5 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\angular\\\\Vip_...', Array)
+#6 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\angular\\\\Vip_...', Array)
+#7 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#8 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#9 C:\\angular\\Vip_Travel_Project\\storage\\framework\\views\\659ac99af5ff4b70eb43f7dd9a25fd71.php(345): Illuminate\\View\\View->render()
+#10 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\angular\\\\Vip_...')
+#11 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\angular\\\\Vip_...', Array)
+#13 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\angular\\\\Vip_...', Array)
+#14 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\angular\\\\Vip_...', Array)
+#15 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#16 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#17 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#18 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#19 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#20 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#21 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#22 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\RequireChangePassword.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\RequireChangePassword->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\SetLanguageForAdmin.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetLanguageForAdmin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\SetCurrentCurrency.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetCurrentCurrency->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\HideDebugbar.php(32): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\HideDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\RedirectForMultiLanguage.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\RedirectForMultiLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#43 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#51 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#52 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#53 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#54 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\angular\\Vip_Travel_Project\\themes\\Base\\Core\\Middleware\\RunUpdater.php(73): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Themes\\Base\\Core\\Middleware\\RunUpdater->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\angular\\Vip_Travel_Project\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\angular\\Vip_Travel_Project\\app\\Http\\Middleware\\RedirectToInstaller.php(40): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\RedirectToInstaller->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#76 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\angular\\Vip_Travel_Project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\angular\\Vip_Travel_Project\\public\\index.php(77): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\angular\\Vip_Travel_Project\\server.php(21): require_once('C:\\\\angular\\\\Vip_...')
+#80 {main}
+"} 

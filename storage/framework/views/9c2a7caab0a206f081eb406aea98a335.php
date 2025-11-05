@@ -1,0 +1,1 @@
+<?php echo $__env->make('vendor.pagination.default', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\angular\Vip_travel\Vip_Travel_Project\resources\views/vendor/pagination/tailwind.blade.php ENDPATH**/ ?>

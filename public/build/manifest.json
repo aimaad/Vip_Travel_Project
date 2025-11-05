@@ -1,0 +1,13 @@
+{
+  "resources/css/base.css": {
+    "file": "assets/base-CYzIUPXh.css",
+    "src": "resources/css/base.css",
+    "isEntry": true
+  },
+  "resources/js/auth-toggle.js": {
+    "file": "assets/auth-toggle-BL2jfOT2.js",
+    "name": "auth-toggle",
+    "src": "resources/js/auth-toggle.js",
+    "isEntry": true
+  }
+}

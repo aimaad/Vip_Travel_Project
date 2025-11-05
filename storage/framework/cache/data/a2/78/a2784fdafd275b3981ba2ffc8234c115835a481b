@@ -1,0 +1,48 @@
+9999999999s:1145:".blog-breadcrumb .ul, .blog-breadcrumb ol, .blog-breadcrumb ul {
+    margin-left: 150px !important;
+}
+.bravo-logo {
+    position: relative !important; 
+    z-index: 9999 !important;
+}
+.bravo_wrap .bravo_search_tour .bravo_banner h1 {
+    margin-top: 80px !important;
+}
+.bravo_wrap .page-template-content .bravo-form-search-all .text-heading {
+    margin-top: 60px;
+}
+.bravo-booking-page .form-title {
+    margin-top: 70px;
+}
+.booking-review .booking-review-title  {
+    margin-top: 70px;
+}
+.bravo-booking-page .form-title {
+    color:#5467a6;
+}
+.bravo_wrap .bravo_topbar {
+    background: #5467a6;
+}
+.bravo_wrap .bravo_header {
+    border-bottom: 1px solid #4c68a6;
+    height: 0;
+}
+.bravo_wrap .page-template-content .bravo-list-locations.style_4 {
+    margin: 30px 0 30px !important;
+}
+
+.bravo_wrap .page-template-content .bravo-list-news .title {
+    margin-top: 30px !important;
+}
+
+.bravo_wrap .bravo_footer .mailchimp {
+    display: none;
+    
+}
+
+.bravo_wrap .bravo_user_profile .user-form-settings .language-navigation ul {
+    display: none;
+}
+.main-sidebar{
+    background: red !important
+}";

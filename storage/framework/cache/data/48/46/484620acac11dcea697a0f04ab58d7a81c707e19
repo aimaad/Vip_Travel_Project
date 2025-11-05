@@ -1,0 +1,1 @@
+1751648112a:2:{s:6:"status";s:5:"error";s:7:"message";s:116:"Method App\Http\Controllers\Modules\Flight\Admin\OfferController::searchFlightInfoForMultipleFlights does not exist.";}

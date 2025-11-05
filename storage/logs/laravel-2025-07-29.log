@@ -1,0 +1,21 @@
+[2025-07-29 10:46:28] production.INFO: Creating offer {"type":"direct_single","user":8} 
+[2025-07-29 10:46:30] production.INFO: dkhle ljob   
+[2025-07-29 10:46:30] production.INFO: Traitement recherche ID: 204  
+[2025-07-29 10:46:30] production.INFO: 📦 Appel Amadeus avec les paramètres suivants : {"currencyCode":"MAD","sources":["GDS"],"searchCriteria":{"flightFilters":{"maxConnections":0}},"originDestinations":[{"id":"1","originLocationCode":"CMN","destinationLocationCode":"IST","departureDateTimeRange":{"date":"2025-08-09"}},{"id":"2","originLocationCode":"IST","destinationLocationCode":"CMN","departureDateTimeRange":{"date":"2025-08-11"}}],"travelers":[{"id":"1","travelerType":"ADULT"}]} 
+[2025-07-29 10:47:07] production.INFO: Scraping déjà existant pour Lord Morgan & Exclusive Design Cihangir, on ne lance pas le job.  
+[2025-07-29 10:54:48] production.INFO: Creating offer {"type":"direct_single","user":8} 
+[2025-07-29 10:54:48] production.INFO: dkhle ljob   
+[2025-07-29 10:54:48] production.INFO: Traitement recherche ID: 205  
+[2025-07-29 10:54:48] production.INFO: 📦 Appel Amadeus avec les paramètres suivants : {"currencyCode":"MAD","sources":["GDS"],"searchCriteria":{"flightFilters":{"maxConnections":0}},"originDestinations":[{"id":"1","originLocationCode":"CMN","destinationLocationCode":"IST","departureDateTimeRange":{"date":"2025-08-09"}},{"id":"2","originLocationCode":"IST","destinationLocationCode":"CMN","departureDateTimeRange":{"date":"2025-08-11"}}],"travelers":[{"id":"1","travelerType":"ADULT"}]} 
+[2025-07-29 10:57:20] production.INFO: Creating offer {"type":"direct_single","user":8} 
+[2025-07-29 10:57:21] production.INFO: dkhle ljob   
+[2025-07-29 10:57:21] production.INFO: Traitement recherche ID: 206  
+[2025-07-29 10:57:21] production.INFO: 📦 Appel Amadeus avec les paramètres suivants : {"currencyCode":"MAD","sources":["GDS"],"searchCriteria":{"flightFilters":{"maxConnections":0}},"originDestinations":[{"id":"1","originLocationCode":"CMN","destinationLocationCode":"IST","departureDateTimeRange":{"date":"2025-08-09"}},{"id":"2","originLocationCode":"IST","destinationLocationCode":"CMN","departureDateTimeRange":{"date":"2025-08-10"}}],"travelers":[{"id":"1","travelerType":"ADULT"}]} 
+[2025-07-29 12:12:37] production.INFO: Creating offer {"type":"direct_single","user":8} 
+[2025-07-29 12:12:38] production.INFO: dkhle ljob   
+[2025-07-29 12:12:38] production.INFO: Traitement recherche ID: 207  
+[2025-07-29 12:12:38] production.INFO: 📦 Appel Amadeus avec les paramètres suivants : {"currencyCode":"MAD","sources":["GDS"],"searchCriteria":{"flightFilters":{"maxConnections":0}},"originDestinations":[{"id":"1","originLocationCode":"CMN","destinationLocationCode":"IST","departureDateTimeRange":{"date":"2025-08-08"}},{"id":"2","originLocationCode":"IST","destinationLocationCode":"CMN","departureDateTimeRange":{"date":"2025-08-10"}}],"travelers":[{"id":"1","travelerType":"ADULT"}]} 
+[2025-07-29 12:15:19] production.INFO: Creating offer {"type":"direct_single","user":8} 
+[2025-07-29 12:15:21] production.INFO: dkhle ljob   
+[2025-07-29 12:15:21] production.INFO: Traitement recherche ID: 208  
+[2025-07-29 12:15:21] production.INFO: 📦 Appel Amadeus avec les paramètres suivants : {"currencyCode":"MAD","sources":["GDS"],"searchCriteria":{"flightFilters":{"maxConnections":0}},"originDestinations":[{"id":"1","originLocationCode":"CMN","destinationLocationCode":"IST","departureDateTimeRange":{"date":"2025-08-14"}},{"id":"2","originLocationCode":"IST","destinationLocationCode":"CMN","departureDateTimeRange":{"date":"2025-08-17"}}],"travelers":[{"id":"1","travelerType":"ADULT"}]} 
