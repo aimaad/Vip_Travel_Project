@@ -73,3 +73,4 @@ http://127.0.0.1:8081/
 Le projet utilise le système de Jobs pour exécuter certaines tâches en arrière-plan.
 Tous les jobs se trouvent dans :
 app/Jobs/
+
