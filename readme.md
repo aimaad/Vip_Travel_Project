@@ -2,15 +2,6 @@
 
 ## Installation
 
-Vous pouvez installer le projet de deux façons :
-
-### ✅ 1) Téléchargement direct depuis IONOS
-En le téléchargeant directement depuis IONOS :
--> Vip_Travel_Project_ionos.zip  
-Dans ce cas, toutes les bibliothèques sont déjà installées et configurées,  
-il suffit d’extraire le projet sur votre machine et de lancer les commandes pour démarrer l’application.
-
-### ✅ 2) Installation depuis GitHub
 1. Cloner le projet :
    git clone https://github.com/aimaad/Vip_Travel_Project.git
    cd VIP_TRAVEL_PROJECT
@@ -73,4 +64,5 @@ http://127.0.0.1:8081/
 Le projet utilise le système de Jobs pour exécuter certaines tâches en arrière-plan.
 Tous les jobs se trouvent dans :
 app/Jobs/
+
 
