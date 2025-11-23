@@ -2,67 +2,65 @@
 
 ## Installation
 
-1. Cloner le projet :
+1. Clone the project:
    git clone https://github.com/aimaad/Vip_Travel_Project.git
    cd VIP_TRAVEL_PROJECT
 
-2. Installer les dépendances PHP :
+2. Install PHP dependencies:
    composer install
 
-3. Installer les dépendances Node :
+3. Install Node dependencies:
    npm install
 
-4. Générer la clé :
+4. Generate the key:
    php artisan key:generate
 
 
-## Configuration du fichier .env
+## .env File Configuration
 
-Ouvrir le fichier .env et configurer :
+Open the .env file and configure:
 
-- Connexion à la base de données :
+- Database connection:
   DB_DATABASE=xxxx
   DB_USERNAME=xxxx
   DB_PASSWORD=xxxx
 
-- Clés Amadeus :
+- Amadeus keys:
   AMADEUS_KEY=xxxx
   AMADEUS_SECRET=xxxx
 
-- Clé Duffel :
+- Duffel key:
   DUFFEL_API_KEY=xxxx
 
-- Clé Scraper API :
+- Scraper API key:
   SCRAPER_API_KEY=xxxx
 
 
-## Lancement du projet
+## Running the Project
 
-Ouvrir 3 terminaux et exécuter :
+Open 3 terminals and run:
 
-1) Lancer le serveur Laravel :
+1) Start the Laravel server:
    php artisan serve --port=8081
 
-2) Lancer le build front :
+2) Start the frontend build:
    npm run dev
 
-3) Lancer le système de queue (jobs asynchrones) :
+3) Start the queue system (asynchronous jobs):
    php artisan queue:work
 
-L’application sera accessible sur :
+The application will be accessible at:
 http://127.0.0.1:8081/
 
 
-## Information sur le code
+## Code Information
 
-- Controller principal des offres : OfferController
-- Controller principal des hôtels : HotelController
+- Main offers controller: OfferController
+- Main hotels controller: HotelController
 
 
-## Mode Asynchrone
+## Asynchronous Mode
 
-Le projet utilise le système de Jobs pour exécuter certaines tâches en arrière-plan.
-Tous les jobs se trouvent dans :
+The project uses a Jobs system to execute certain tasks in the background.
+All jobs are located in:
 app/Jobs/
-
-
